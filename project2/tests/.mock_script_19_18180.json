@@ -1,0 +1,1 @@
+[{"type": "tool_calls", "calls": [{"id": "t1", "name": "bash", "arguments": {"command": "echo first"}}, {"id": "t2", "name": "bash", "arguments": {"command": "echo second"}}]}, {"type": "text", "content": "both-ran"}]
