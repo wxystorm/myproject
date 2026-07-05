@@ -1,8 +1,4 @@
-根据你提供的实验大纲（Lab 2: LLM Client）以及你项目的实际文件结构（包含 `main.c`、`http.c`、`message.c` 以及 `context/`, `ui/` 等文件夹），我为你量身定制了一份专属于这个大项目的 `README.md`。
 
-这份文档不仅结构专业，而且完整契合了实验的核心技术点。你可以直接创建 `README.md` 文件并将其复制进去：
-
----
 
 ```markdown
 # 🤖 C-Based LLM Client & Coding Agent Core
