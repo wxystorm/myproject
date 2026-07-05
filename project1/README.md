@@ -20,14 +20,14 @@
 
 ## 🛠️ 环境依赖与配置 (Prerequisites)
 
-在开始运行前，请确保你的开发环境（Linux / WSL2）已安装 GCC、Make 以及 Caddy[cite: 2]。
+在开始运行前，请确保你的开发环境（Linux / WSL2）已安装 GCC、Make 以及 Caddy。
 
 ### 1. 配置反向代理 (Caddy)
-由于本实验专注于底层 Socket 与 HTTP 协议解析，为了避免引入复杂的 TLS/HTTPS 握手，我们需要在本地运行一个 Caddy 反向代理[cite: 2]。它负责接收我们 C 程序的明文 HTTP 请求，并将其安全地转发至交大内部的 HTTPS 远程大模型接口[cite: 2]：
+由于本实验专注于底层 Socket 与 HTTP 协议解析，为了避免引入复杂的 TLS/HTTPS 握手，我们需要在本地运行一个 Caddy 反向代理[cite: 2]。它负责接收我们 C 程序的明文 HTTP 请求，并将其安全地转发至交大内部的 HTTPS 远程大模型接口：
 
 ```bash
-# 启动本地反向代理，将本地 18080 端口映射到远程大模型服务[cite: 2]
-caddy reverse-proxy --from :18080 --to [https://models.sjtu.edu.cn](https://models.sjtu.edu.cn)
+# 启动本地反向代理，将本地 18080 端口映射到远程大模型服务
+caddy reverse-proxy --from :18080 --to [网址]
 
 ```
 
