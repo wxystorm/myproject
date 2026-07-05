@@ -21,7 +21,7 @@
 
 ### 1. 克隆项目到本地
 ```bash
-git clone [https://github.com/你的用户名/你的仓库名.git](https://github.com/wxy/myproject2.git)
+git clone https://github.com/wxystorm/myproject2.git
 cd project2
 ```
 ### 2.编译
